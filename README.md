@@ -193,11 +193,11 @@ IRIS is structured as a lifecycle for understanding and deploying computer visio
 
 - **IRIS Model Zoo**  
   Released models with weights and deployment profiles  
-  → [Link]
+  → [ModelZoo(https://github.com/iris-computer-vision/iris-model-zoo/)]
 
 - **IRIS Experiments**  
   Experiment lineage and model evolution  
-  → [Link]
+  → [Experiments(https://github.com/iris-computer-vision/iris-experiments/)]
 
 ---
 
