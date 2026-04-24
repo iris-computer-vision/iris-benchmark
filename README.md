@@ -108,15 +108,18 @@ IRIS Benchmark focuses on:
 <!-- ===================================================== -->
 
 ## What These Benchmarks Show
+These comparisons show how model behavior diverges under real-world conditions.
 
 <p align="center">
   <img src="assets/iris-benchmark-comparison.png" width="90%" />
 </p>
 
-These comparisons highlight:
-- detection confidence differences  
-- localization consistency  
-- failure cases under real-world conditions  
+Top: A distant object is missed entirely by one model (Faster R-CNN) despite being present and detected by another (YOLOv8s).  
+Bottom: A higher-confidence detection (RT-DETR) introduces duplicate predictions on the same target.
+
+These are not edge cases. They are common outcomes that do not surface in aggregate metrics.
+
+Performance is not just about score. It is about how models fail. 
 
 ---
 
@@ -126,25 +129,33 @@ These comparisons highlight:
 
 ## Methodology
 
-All benchmarks are designed around **controlled comparability**.
+Benchmarks in IRIS are designed for **controlled comparison**, not isolated results.
+
+Each evaluation is structured to ensure that differences in performance reflect model behavior, not experimental variance.
+
+---
 
 ### Standardization
 
+All models are evaluated under aligned conditions:
+
 - consistent dataset splits  
-- aligned preprocessing pipelines  
-- controlled training conditions where applicable  
+- uniform preprocessing pipelines  
+- comparable training configurations where applicable  
+
+This ensures that differences in output are attributable to the model itself.
+
+---
 
 ### Evaluation
 
-- mAP, mAR, IoU  
-- qualitative inspection of outputs  
-- failure mode analysis  
+Performance is measured using standard metrics:
 
-### What Matters
+- mAP (mean Average Precision)  
+- mAR (mean Average Recall)  
+- IoU (Intersection over Union)  
 
-- consistency across frames  
-- performance under environmental variation  
-- behavior at operational limits  
+These provide a baseline for comparison across architectures.
 
 ---
 
