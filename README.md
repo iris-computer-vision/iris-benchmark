@@ -177,12 +177,17 @@ IRIS Benchmark pairs quantitative metrics with qualitative evaluation to provide
 
 ## How This Fits Into IRIS
 
+IRIS is structured as a lifecycle for understanding and deploying computer vision systems.
+
 **Flow:**
 
-- Benchmarks → structured comparisons  
-- Experiments → how models were developed  
-- Model Zoo → deployable outputs  
+- **Benchmark** → compare model behavior under controlled, real-world conditions  
+- **Experiments** → explore how models behave across changing conditions, domains, and definitions  
+- **Model Zoo** → deploy models designed and trained using the IRIS platform
 
+<p align="center">
+  <img src="assets/iris-benchmark-ecosystem.png" width="100%" />
+</p>
 ---
 
 ## Related Repositories
