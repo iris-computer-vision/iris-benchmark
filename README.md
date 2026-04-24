@@ -45,7 +45,7 @@
 
 ## What This Repository Is
 
-IRIS Benchmark is the **comparison layer** of the IRIS ecosystem.
+This repository is the **comparison layer** of the IRIS ecosystem.
 
 It exists to evaluate how computer vision models behave under:
 - consistent training and validation conditions  
@@ -64,7 +64,7 @@ It is a structured system for understanding **model behavior across conditions**
 
 ## Why This Exists
 
-Most model evaluations optimize for a score.
+Most model evaluations optimize for a score. They do not show how models behave when conditions change.
 
 They do not answer:
 - how models behave under distance and scale
@@ -199,7 +199,7 @@ IRIS Benchmark pairs quantitative metrics with qualitative evaluation to provide
 
 ## External Resources
 
-[IRIS](https://iriscomputervision.ai/)
+Check out the [IRIS](https://iriscomputervision.ai/) webpage for all the latest news and updates!
 - Hugging Face Models → [Link]  
 - IRIS Platform → [Link]  
 - Case Studies → [Link]
