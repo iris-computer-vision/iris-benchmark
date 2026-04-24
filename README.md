@@ -188,7 +188,6 @@ IRIS is structured as a lifecycle for understanding and deploying computer visio
 <p align="center">
   <img src="assets/iris-benchmark-ecosystem.png" width="100%" />
 </p>
----
 
 ## Related Repositories
 
