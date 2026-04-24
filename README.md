@@ -15,7 +15,7 @@
 <p align="center">
   <a href="#featured-benchmarks">Explore Benchmarks</a> •
   <a href="#methodology">Methodology</a> •
-  <a href="#related-repositories">Ecosystem</a>
+  <a href="#how-this-fits-into-iris">Ecosystem</a>
 </p>
 
 ---
