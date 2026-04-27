@@ -83,7 +83,6 @@ IRIS Benchmark focuses on:
 <!-- ===================================================== -->
 
 ## Featured Benchmarks
-
 <table>
   <tr>
     <th>Benchmark</th>
@@ -97,7 +96,7 @@ IRIS Benchmark focuses on:
     <td>Drone Detection</td>
     <td>Small / distant object detection</td>
     <td>YOLO, RT-DETR, Faster R-CNN</td>
-    <td><a href="[#](https://github.com/iris-computer-vision/iris-benchmark-drone-eo)">View</a></td>
+    <td><a href="https://github.com/iris-computer-vision/iris-benchmark-drone-eo">View</a></td>
   </tr>
 </table>
 
