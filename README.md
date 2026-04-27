@@ -204,9 +204,8 @@ IRIS is structured as a lifecycle for understanding and deploying computer visio
 ## External Resources
 
 Check out the [IRIS](https://iriscomputervision.ai/) webpage for all the latest news and updates!
-- Hugging Face Models → [[HF](https://huggingface.co/IRIS-Computer-Vision/models)]  
-- IRIS Platform → [Link]  
-- Case Studies → [Link]
+- Hugging Face Models → [[HF](https://huggingface.co/IRIS-Computer-Vision/models)] 
+- Case Studies → [[Here](https://iriscomputervision.ai/case-studies/)]
 
 ---
 
